@@ -1,0 +1,254 @@
+<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Dashboard</title>
+    <style>
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #a9226c;
+        }
+
+        .navbar li {
+            float: left;
+        }
+
+        .navbar li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar li a:hover {
+            background-color: rgb(78, 13, 41);
+        }
+
+        aside {
+            width: 250px;
+            /* Sidebar width */
+            height: 100vh;
+            /* Full viewport height */
+            background-color: #79174d;
+            /* Dark background color */
+            color: white;
+            /* White text color */
+            padding: 20px;
+            /* Padding inside the sidebar */
+            box-sizing: border-box;
+            /* Ensures padding doesn't affect width */
+        }
+
+        aside h2 {
+            margin-top: 0;
+            /* Remove top margin for the heading */
+        }
+
+        aside a {
+            color: white;
+            /* White text color for links */
+            text-decoration: none;
+            /* Remove underline from links */
+            display: block;
+            /* Make links block-level */
+            padding: 10px 0;
+            /* Vertical padding for links */
+        }
+
+        aside a:hover {
+            background-color: #5d0c4a;
+            /* Darker background on hover */
+        }
+
+      
+    </style>
+
+
+
+<body>
+
+    <nav>
+        <div class="navbar">
+
+            <ul>
+                <li><a href="index.html ">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </div>
+        <aside>
+            <h2>Sidebar Menu</h2>
+            <a href="https://hz.nl/en" target="_blank">HZ site</a>
+            <a href="https://learn.hz.nl/my/" target="_blank">HZ learn</a>
+            <a href="https://hz.osiris-student.nl/voortgang" target="_blank">Voortgang</a>
+            <a href="https://apps.hz.nl/rooster/Default.aspx?menu=110239084080170187101166073161084015193018067002"
+                target="_blank">Timetable</a>
+
+
+    </nav>
+    <div class="dashboard-table border">
+        <table>
+
+            <tr>
+                <th>Quarter</th>
+                <th>Course</th>
+                <th>ECS</th>
+                <th>Assessment</th>
+                <th>Grades</th>
+                <th>Completed?</th>
+            </tr>
+            <tr>
+                <!--quarter 1, programme and career orientation-->
+                <td rowspan="3">1 </td>
+                <td>Programme and career orientation</td>
+                <td>2.5</td>
+                <td>Individual process assessment</td>
+                <td>-</td>
+                <td>No</td>
+
+            </tr>
+
+            <tr>
+                <!--quarter 1, computer sience basics-->
+
+                <td>Computer sience basics</td>
+                <td>5</td>
+                <td>written exam</td>
+                <td>-</td>
+                <td>No</td>
+            </tr>
+            <tr>
+               <!-- quarter 1, programming basics-->
+                <td>Programming basics</td>
+                <td>5</td>
+                <td>Case study exam</td>
+                <td>-</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <!--quarter 2, Object-Oriented Programming-->
+                <td>2</td>
+                <td>Object-Oriented Programming</td>
+                <td>10</td>
+                <td>
+                    <ul>
+                        <li>Group assignment</li>
+                        <li>Case sudy exam</li>
+                    </ul>
+                </td>
+                <td>-</td>
+                <td>No</td>
+            </tr>
+            <tr>
+            <!--quarter 3, Framework project 1 -->
+            <td rowspan="4">3/4</td>
+                <td>Framework project 1</td>
+                <td>10</td>
+                <td>
+                    <ul>
+                        <li>On-site case study exam</li>
+                        <li>Database exam</li>
+                        <li>Group presentation on project result</li>
+                        <li>Group portfolio with indv. elements on req.</li>
+                    </ul>
+                </td>
+                <td>-</td>
+                <td>No</td>
+            </tr>
+
+            <tr>
+<!--quarter 3, Framework project 2 -->
+                
+                <td>Framework project 2</td>
+                <td>10</td>
+                <td>
+                    <ul>
+                        <li>Final delivery</li>
+                        <li>Report of acceptance test</li>
+                        <li>IT development portfolio </li>
+                    </ul>
+                </td>
+              <td>-</td>
+              <td>No</td>
+            </tr>
+
+            <tr>
+                <!--quarter 3, Business IT Consultancy basics-->
+                <td>Business IT Consultancy basics</td>
+                <td>2.5</td>
+                <td>Video</td>
+                <td>-</td>
+                <td>No</td>
+            </tr>
+
+            <tr>
+                 <!--quarter 3, Personal Professional development-->
+                
+                
+                <td>Personal Professional development</td>
+                <td>12.5</td>
+                <td>Criterium focused interview</td>
+                <td>-</td>
+                <td>No</td>
+            </tr>
+
+            <tr>
+                <!--IT personalitys-->
+                <td>?</td>
+                <td>IT personality projectweek 1</td>
+                <td>1.25</td>
+                <td>portfolio</td>
+                <td>-</td>
+                <td>No</td>
+
+            </tr>
+            <td>?</td>
+            <td>IT personality 1</td>
+            <td>1.25</td>
+            <td>portfolio</td>
+            <td>-</td>
+            <td>No</td>
+
+            </tr>
+
+            </tr>
+            <td>?</td>
+            <td>IT personality 2</td>
+            <td>1.25</td>
+            <td>portfolio</td>
+            <td>-</td>
+            <td>No</td>
+
+            </tr>
+
+            <!--nbsa progress bar-->
+            <div>
+                <label for="file">NBSA progress:</label>
+
+                <progress id="NBSA" max="60" value="0" class="progress-bar">0</progress>
+            </div>
+    </div>
+    </table>
+    </div>
+
+    <footer>
+        <!--hz logo and link-->
+        <section>
+            <a href="https://hz.nl/en" target="_blank">
+                <img src="img/hz-logo.png" alt="hz-logo" width="50" height="60" class="hz-logo">
+            </a>
+        </section>
+
+    </footer>
+</body>

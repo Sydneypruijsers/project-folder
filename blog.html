@@ -1,11 +1,142 @@
-<<html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Blog</title>
-      </head>
-   <body> <nav> <a href="index.html">Index page</a> </nav>
-   </body>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #a9226c;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: rgb(134, 31, 76);
+        }
+
+         /* Basic styling for the blog post page */
+    body {
+        font-family: "Times New Roman", Times, serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto; /* Centers the content */
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .date {
+      color: #888;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .content {
+      font-size: 18px;
+    }
+
+    a {
+      color: #f374ba;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Back to Blog link styling */
+    .back-to-blog {
+      display: inline-block;
+      margin-top: 30px;
+      font-size: 18px;
+      color:#f374ba;
+    
+    }
+ 
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="index.html ">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </header>
+    <!--blog post-->
+    <div class="blog-post">
+        <h2>Study choice</h2>
+        <p class="date">Posted on: September 6, 2024</p>
+        <p class="excerpt">My motivation and what i want to do after completing this study...</p>
+        <!-- Link to the separate blog post page -->
+        <a href="post1.html">Read more...</a>
+    </div>
+
+    <div class="blog-post">
+        <h2>Personal SWOT analysis</h2>
+        <p class="date">Posted on: September 6, 2024</p>
+        <p class="excerpt">Who am i? my strenghts and weaknesses...</p>
+        <!-- Link to the separate blog post page -->
+        <a href="post2.html">Read more...</a>
+
+        <div class="blog-post">
+            <h2>Programming experience</h2>
+            <p class="date">Posted on: September 6, 2024</p>
+            <p class="excerpt">My coding experience up until this point...</p>
+            <!-- Link to the separate blog post page -->
+            <a href="post3.html">Read more...</a>
+
+        </div>
+        <div class="blog-post">
+            <h2>First feedback</h2>
+            <p class="date">Posted on: September 6, 2024</p>
+            <p class="excerpt">The feedback i got the first time i showed my site...</p>
+            <!-- Link to the separate blog post page -->
+            <a href="post4.html">Read more...</a>
+
+            <div class="blog-post">
+                <h2>Cybersecurity</h2>
+                <p class="date">Posted on: September 6, 2024</p>
+                <p class="excerpt">an article about cybersercurity...</p>
+                <!-- Link to the separate blog post page -->
+                <a href="post5.html">Read more...</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+      <section>
+          <a href="https://hz.nl/en" target="_blank">
+              <img src="img/hz-logo.png" alt="hz-logo" width="50" height="60" class="hz-logo">
+          </a>
+      </section>
+  </footer>
+</body>
+
 </html>

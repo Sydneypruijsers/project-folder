@@ -1,5 +1,122 @@
-main{
-    color:rgb(250, 102, 201);
-nav background-color: ;{
-    color:rgb(250, 110, 187)
+main {
+    color: #fa66c9;
+}
+
+/*nav bar*/
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a9226c;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: rgb(134, 31, 76);
+}
+
+
+
+.socials {
+    color: #ea5e9f;
+    background-color: black;
+}
+
+/*personal-info*/
+.personal-info {
+    /* height: fit-content margin: 0; */
+    text-align: center;
+    width:;
+    font-family: "Times New Roman", Times, serif;
+    
+}
+
+/*mimi-img*/
+.mimi-img {
+    float: left;
+}
+
+
+
+/*table border*/
+.table-border {
+    float: right;
+}
+
+
+/*characteristics list*/
+/* .lists {
+    display:
+} */
+
+
+
+
+
+/*faq lists*/
+.antwoord ul {
+    list-style-type: disc;
+    /* Ensures bullets or other markers */
+    padding-left: 20px;
+    /* Adds some space before the list items */
+    margin: 10px 0;
+    /* Adds margin around the list */
+}
+
+.antwoord ul li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.dashboard-table {
+    position:fixed;
+    top: 10%;
+    margin-left: 25%;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #f2a0cc;
+}
+
+th {
+    background-color: #a9226c;
+    color:azure;
+    border: 1px solid black;
+}
+
+td {
+    color:rgb(55, 28, 51)
+}
+
+.hz-logo {
+    position: fixed;
+    top: 87%;
+    /* Distance from the top */
+    right: 0;
+    /* Distance from the right */
+    margin: 10;
+    /* Optional: Adds space between the image and the edges */
+}
+
+.sillyfacts{
+    list-style-type: none;
+    text-align: left;
 }
